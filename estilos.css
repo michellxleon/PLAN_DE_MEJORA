@@ -34,7 +34,7 @@ img{
 /*------------------------Header----------------------------------------------------*/
 
 header{
-  background-image: linear-gradient(to right, rgba(18, 172, 142, 0.9), rgba(18, 172, 142, 0.7)), url("IMG/header.jpg");
+  background-image: linear-gradient(to right, rgba(18, 172, 142, 0.9), rgba(18, 172, 142, 0.7)), url("img/header.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -45,4 +45,114 @@ header{
   margin: auto;
   padding: 5rem 1rem;
 }
+
+.contenedor2{
+  padding: 2rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.letra1{
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--blanco);
+}
+
+.letra2{
+  color: var(--color-secundario);
+}
+
+.links{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.link{
+  padding: 0.5rem;
+  color: var(--color-primario-claro);
+}
+
+.link:hover{
+  color: var(--blanco);
+}
+
+.boton{
+  padding: 0.75rem 2rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  white-space: nowrap;
+  color: var(--blanco);
+  background-color: var(--color-secundario);
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contenedor2{
+  display: flex;
+  align-items: center;
+  gap: 5rem;
+}
+
+.titulo1{
+  margin-bottom: 1rem;
+  max-width: 800px;
+  font-size: 3.5rem;
+  line-height: 4rem;
+  color: var(--blanco);
+}
+
+.parrafo1{
+  margin-bottom: 2rem;
+  max-width: 600px;
+  color: var(--color-primario-claro);
+}
+
+.datos{
+  width: 100%;
+  max-width: 350px;
+}
+
+.cuadro_datos{
+  display: grid;
+  gap: 1rem;
+  padding: 2rem;
+  background-color: var(--blanco);
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.titulo_datos{
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-primario);
+}
+
+.datos1{
+  padding: 1rem;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  color: var(--color-primario);
+  background-color: var(--color-primario-claro);
+  border-radius: 5px;
+}
+
+.datos1{
+  color: var(--color-primario);
+}
+
+.datos_boton{
+  background-color: var(--color-primario);
+  transition: 0.3s;
+}
+
+.datos_boton{
+  background-color: var(--color-primario-oscuro);
+}
+
 
