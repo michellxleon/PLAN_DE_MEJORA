@@ -155,4 +155,95 @@ header{
   background-color: var(--color-primario-oscuro);
 }
 
+/*-----------------------service----------------------------*/
+
+.service{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.service_titulo{
+    margin-bottom: 0.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--texto-oscuro);
+}
+
+.service_parrafo{
+  max-width: 600px;
+  color: var(--texto-oscuro);
+}
+
+
+.service_boton{
+  padding: 0.75rem 1rem;
+  outline: none;
+  font-size: 1rem;
+  color: var(--color-primario);
+  border: 1px solid var(--color-primario);
+  background-color: transparent;
+  border-radius: 5px;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.service_boton:hover{
+  color: var(--blanco);
+  background-color: var(--color-primario);
+}
+
+.service_cuadros{
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.marco_service{
+  padding: 2rem;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.marco_service span{
+  display: inline-block;
+  margin-bottom: 1rem;
+  padding: 10px 20px;
+  font-size: 2.5rem;
+  color: var(--color-primario);
+  background-color: var(--color-primario-claro);
+  border-radius: 100%;
+  transition: 0.3s;
+}
+
+.marco_service:hover span{
+  color: var(--color-primario-claro);
+  background-color: var(--color-primario);
+}
+
+.titulo_service{
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--texto-oscuro);
+}
+
+.parrafo_service{
+  margin-bottom: 1rem;
+  color: var(--texto-claro);
+}
+
+.service_btn{
+  color: var(--color-primario);
+}
+
+.service_btn:hover{
+  color: var(--color-primario-oscuro);
+}
+
 
